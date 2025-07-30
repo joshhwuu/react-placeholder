@@ -6,7 +6,7 @@ import { flatten } from 'lodash';
 import ReactPlaceholder from '../src/ReactPlaceholder';
 import { shallow } from 'enzyme';
 import { act, render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 
 jest.useFakeTimers();
 
