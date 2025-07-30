@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "rimraf lib && mkdir lib && sass src:lib && tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
     "preversion": "npm run typecheck && npm run test",
     "prepublishOnly": "npm run build",
     "start": "styleguidist server",
@@ -14,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:buildo/react-placeholder"
+    "url": "git@github.com:joshhwuu/react-placeholder"
   },
   "keywords": [
     "react",
@@ -24,15 +25,15 @@
     "loading",
     "paragraph"
   ],
-  "author": "Francesco Cioria <francesco@buildo.io>",
+  "author": "joshhwuu <joshuawu2004@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/buildo/react-placeholder/issues"
+    "url": "https://github.com/joshhwuu/react-placeholder/issues"
   },
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/buildo/react-placeholder",
+  "homepage": "https://github.com/joshhwuu/react-placeholder",
   "typings": "lib",
   "dependencies": {},
   "devDependencies": {
